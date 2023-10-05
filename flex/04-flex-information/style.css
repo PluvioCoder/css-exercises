@@ -10,6 +10,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +24,53 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* solution */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+.plant-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 15px
+}
+
+.plant-2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 15px
+}
+
+.plant-3 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 15px
+}
+
+.plant-4 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 15px
 }
